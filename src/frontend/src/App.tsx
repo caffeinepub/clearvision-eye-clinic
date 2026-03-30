@@ -113,7 +113,11 @@ const TESTIMONIALS = [
 const SOCIAL_LINKS = [
   { Icon: Facebook, label: "Facebook", href: "https://facebook.com" },
   { Icon: Twitter, label: "Twitter", href: "https://twitter.com" },
-  { Icon: Instagram, label: "Instagram", href: "https://instagram.com" },
+  {
+    Icon: Instagram,
+    label: "Instagram",
+    href: "https://www.instagram.com/shaikh_sphere2008?igsh=amZreDJ5Z2s0emts",
+  },
   { Icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
 ];
 
