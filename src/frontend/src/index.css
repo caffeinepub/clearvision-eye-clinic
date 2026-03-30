@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.75rem;
+
+    /* ClearVision palette — OKLCH L C H */
+    --background: 0.978 0.004 260;
+    --foreground: 0.18 0.01 255;
+    --card: 1 0 0;
+    --card-foreground: 0.18 0.01 255;
+    --popover: 1 0 0;
+    --popover-foreground: 0.18 0.01 255;
+    --primary: 0.38 0.09 218; /* deep teal #0E5A73 */
+    --primary-foreground: 1 0 0;
+    --secondary: 0.93 0.04 218; /* pale teal tint #D9F1F4 */
+    --secondary-foreground: 0.38 0.09 218;
+    --muted: 0.93 0.04 218;
+    --muted-foreground: 0.52 0.02 255;
+    --accent: 0.56 0.1 218; /* teal accent #1B8EA6 */
+    --accent-foreground: 1 0 0;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+    --border: 0.915 0.008 255;
+    --input: 0.915 0.008 255;
+    --ring: 0.56 0.1 218;
+    --chart-1: 0.56 0.1 218;
+    --chart-2: 0.38 0.09 218;
+    --chart-3: 0.646 0.222 41.116;
+    --chart-4: 0.828 0.189 84.429;
+    --chart-5: 0.769 0.188 70.08;
+    --sidebar: 0.38 0.09 218;
+    --sidebar-foreground: 1 0 0;
+    --sidebar-primary: 0.56 0.1 218;
+    --sidebar-primary-foreground: 1 0 0;
+    --sidebar-accent: 0.45 0.09 218;
+    --sidebar-accent-foreground: 1 0 0;
+    --sidebar-border: 0.45 0.07 218;
+    --sidebar-ring: 0.56 0.1 218;
+  }
+
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Inter", system-ui, sans-serif;
+  }
+}
